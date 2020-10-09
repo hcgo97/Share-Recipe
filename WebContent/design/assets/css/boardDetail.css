@@ -1,0 +1,55 @@
+.boardDetail{
+   background: #ffffff;
+   width: 650px;
+   height: 300px;
+   margin:auto;
+   border:2px solid #ffffff;
+   text-align:center;
+   margin-top:30px;
+   padding-top:30px;
+   border-bottom:#ffffff;
+}
+.boardDetail2{
+   border-top: #ffffff;
+   background: #ffffff;
+   width: 650px;
+   height: 100px;
+   border:2px solid #ffffff;
+   text-align:center;
+   float : right;
+}
+.button1{
+   font:15px Rubix, sans-serif;
+   border-radius:2px;
+   border:0;
+   outline:0;
+   color:#ffffff;
+   width: 90px;
+   height: 25px;
+   background:#B367FF
+}
+.button2{
+   
+   font:15px Rubix, sans-serif;
+   border-radius:2px;
+   border:0;
+   outline:0;
+   color:#ffffff;
+   width: 80px;
+   height: 80px;
+   background:#B367FF
+}
+.reply{
+   margin-top:30px;
+}
+.button3{
+   
+   font:15px Rubix, sans-serif;
+   border-radius:2px;
+   border:0;
+   outline:0;
+   color:#ffffff;
+   width: 100px;
+   height: 20px;
+   background:#B367FF
+}

@@ -1,0 +1,115 @@
+
+.findid{
+   background: #ffffff;
+   width: 400px;
+   height: 300px;
+   margin:auto;
+   border:0px solid #ffffff;
+   text-align:center;
+	margin-top:30px;
+	padding-top:20px;
+}
+.btn1{
+	font:15px Rubix, sans-serif;
+	border-radius:5px;
+	border:0;
+	outline:0;
+	color:#ffffff;
+	margin-top:50px;
+	width: 200px;
+   height: 50px;
+   background:#B367FF
+}
+.btn12{
+	font:15px Rubix, sans-serif;
+	width:200px;
+	height:30ipx;
+	border-radius:5px;
+	border:0;
+	outline:0;
+	color:#ffffff;
+	margin-left:10px;
+	margin-top:10px;
+	width: 380px;
+   height: 50px;
+   background:#B367FF
+}
+.btn3{
+	font:12px Rubix, sans-serif;
+	border-radius:2px;
+	border:1px solid #c0c0c0;
+	outline:0;
+	color:#000000;
+	align:right;
+	margin-top:10px;
+	margin-left:280px;
+	width: 100px;
+   height: 30px;
+   background:#ffffff
+}
+.btn4{
+	font:12px Rubix, sans-serif;
+	border-radius:2px;
+	border:1px solid #c0c0c0;
+	outline:0;
+	color:#000000;
+	align:right;
+	margin-top:10px;
+	margin-left:200px;
+	width: 100px;
+   height: 30px;
+   background:#ffffff
+}
+.main{
+	border:0px solid #c0c0c0;
+	width: 540px;
+	height:450px;
+	margin: 0 auto;
+	
+}
+
+.main,td{
+	margin-top:15px;
+	padding:5px;
+	font-size:20px;
+
+}
+.btn111{
+	font:15px Rubix, sans-serif;
+	border-radius:5px;
+	border:0;
+	outline:0;
+	color:#ffffff;
+	margin-left:10px;
+	width: 80px;
+   height: 50px;
+   background:#B367FF
+}
+
+.btn112{
+	font:15px Rubix, sans-serif;
+	border-radius:5px;
+	border:0;
+	outline:0;
+	color:#ffffff;
+	margin-top:10px;
+	width: 450px;
+   height: 50px;
+   background:#B367FF
+}
+.boardWrite{
+	margin-top:15px;	
+}
+.btn5{
+	
+	font:12px Rubix, sans-serif;
+	border-radius:2px;
+	border:1px solid #c0c0c0;
+	outline:0;
+	color:#000000;
+	align:right;
+	margin:5px;
+	width: 100px;
+   height: 30px;
+   background:#ffffff
+}
