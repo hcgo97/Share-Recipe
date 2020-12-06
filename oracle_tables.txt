@@ -1,0 +1,44 @@
+create table member_tbl(
+userid varchar2(20) not null primary key,
+pass varchar2(40) not null,
+name varchar(20) not null,
+email varchar2(30) not null,
+admin number default '0' // 기본값 0, 값이 1이면 관리자
+);
+
+create table board_tbl(
+unq number not null primary key,
+userid varchar2(20) not null ,
+title varchar2(50) not null,
+category varchar2(20) not null,
+mat varchar2(1000) not null,
+recipe clob not null,
+hits number default '0',
+rdate timestamp,
+constraint fk_board_id foreign key(userid) references member_tbl(userid) ON DELETE CASCADE
+);
+
+create table reply(
+replyunq number not null primary key, //댓글의 고유번호
+unq number default '0', //게시글 unq
+replytext varchar2(1000) not null, //댓글내용
+replyer varchar2(50) not null, //댓글 작성자
+redate date default sysdate, //댓글 작성날짜
+board_unq number not null,
+constraint fk_board_unq foreign key(board_unq) references board_tbl(unq) ON DELETE CASCADE, //board_tbl unq 컬럼 참조, 원글(부모키)삭제시 댓글(자식키)도 같이 삭제되게
+constraint fk_reply_id foreign key(replyer) references member_tbl(userid) ON DELETE CASCADE //member_tbl userid 컬럼 참조
+);
+
+
+
+
+create sequence board_tbl_seq
+increment by 1
+start with 0
+minvalue 0
+maxvalue 999999;
+
+
+create sequence reply_seq
+start with 1
+increment by 1;
