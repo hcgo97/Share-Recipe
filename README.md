@@ -1,6 +1,6 @@
 # Share-Recipe
 ## Cooking Recipe Sharing Web Site
-## 요리레시피 공유 
+## 요리레시피 공유 웹 사이트
 ## 2020.08
 
 ### # not SpringFramework
