@@ -3,7 +3,7 @@
 ## 요리레시피 공유 웹 사이트
 ## 2020.08
 
-### # not SpringFramework
+### # not use SpringFramework
 ### # only JSP code
 
 
