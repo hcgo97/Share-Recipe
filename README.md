@@ -13,7 +13,7 @@
 ### # 게시판
     -> 로그인시 write, modify, delete, reply 가능
     -> 인기게시판은 조회수 top5 목록 출력
-    -> summernote 에디터 api 사용하여 write시 textEditer 사용 가능
+    -> summernote api 사용하여 write시 textEditer 사용 가능
 
 ### # Session 관련
     -> 로그인, 로그아웃
