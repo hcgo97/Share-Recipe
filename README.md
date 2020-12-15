@@ -11,8 +11,9 @@
     -> 유저는 제목, 재료, 내용 값으로 등록된 레시피를 검색할 수 있다.
     
 ### # 게시판
-    -> 로그인하면 write, modify, delete 가능
+    -> 로그인시 write, modify, delete 가능
     -> 인기게시판은 조회수 top5 목록 출력
+    -> summernote 에디터 api 사용하여 write시 textEditer 사용 가능
 
 ### # Session 관련
     -> 로그인, 로그아웃
